@@ -22,7 +22,7 @@ while (filmType !== 'Horror' && filmType !== 'Romance'){
 
    var numImg= prompt('How many time do you want to see your list?');
 
-   for(var i=0; i<=numImg; i++){
+   for(var i=0; i<numImg; i++){
    
     document.write(userChoose);
 
