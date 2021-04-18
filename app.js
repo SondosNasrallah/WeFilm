@@ -25,12 +25,7 @@ favFilm();
 
    userChoose=('<img src="https://i.pinimg.com/originals/47/4f/f6/474ff6f6f17180b82dad835195c511d0.png">');
 
-  }
-   var numImg= prompt('How many time do you want to see your list?');
 
-   for(var i=0; i<numImg; i++){
-   
-    document.write(userChoose);
  
   }
 
