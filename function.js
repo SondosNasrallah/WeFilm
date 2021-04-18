@@ -1,6 +1,12 @@
+function favMovie (){
+  var filmName=prompt('Hello, please enter your favorite film name');
+  console.log(filmName);
+}
+favMovie();
+
 var filmType;
 
-function favFilm= function(){
+function favFilm(){
 var filmType =prompt('please enter your type of films');
 
 while (filmType !== 'Horror' && filmType !== 'Romance'){
@@ -38,4 +44,5 @@ favFilm();
 
   showImg();
  
+
 
