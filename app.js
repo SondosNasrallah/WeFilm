@@ -1,36 +1,33 @@
 var filmType;
 
-function favFilm(){
-var filmType =prompt('please enter name of your favorite film');
+var favFilm = function () {
+  filmName = prompt('Hello, please enter your fav film type');
 
-while (filmType !== 'Horror' && filmType !== 'Romance'){
-  filmType = prompt ('please enter the type Horror or Romance');  
-}
+  while (filmType !== 'Horror' && filmType !== 'Romance') {
+    filmType = prompt('Please enter the film type Horror or Romance');
+  }
+
 }
 favFilm();
 
 
-  var userChoose;
-  function showImg(){
-    
-  if (filmType === 'Horror'){
-   
-    alert ('Welcome to our Website, Down below the is a List that could help you to choose a suitable Horror film');
-
-   userChoose=('<img src="https://live.staticflickr.com/6108/6277596671_4588e91e20_b.jpg">');
-
-  }else if (filmType === 'Romance'){
-
-   alert ('Welcome to our Website, Down below the is a List that could help you to choose a suitable Romance film');
-
-   userChoose=('<img src="https://i.pinimg.com/originals/47/4f/f6/474ff6f6f17180b82dad835195c511d0.png">');
+var userChoose;
 
 
- 
+function showImages() {
+
+  if (filmType === 'Horror') {
+    userChoose = '<img src="https://live.staticflickr.com/6108/6277596671_4588e91e20_b.jpg">';
+  } else if (filmType === 'Romance') {
+    userChoose = '<img src="https://i.pinimg.com/originals/47/4f/f6/474ff6f6f17180b82dad835195c511d0.png">';
   }
 
+  var imagesNumber = prompt('How many image do you want?');
+
+  for (var i = 0; i < imagesNumber; i++) {
+    document.write(userChoose);
   }
 
-  showImg();
- 
+}
 
+showImages();
