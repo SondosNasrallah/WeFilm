@@ -1,0 +1,30 @@
+header{
+  background-color: #bdc7c9;
+}
+h1{
+  color: #194350;
+  text-align: center;
+}
+
+nav ul li{
+  display: inline; 
+  padding: 50px;
+  margin: 50px;
+}
+
+main article img{
+  float: right;
+  width: 50%;
+  height: 80%;
+  opacity: 0.5;
+  }
+  
+  main article P{
+    color: blue;
+    font-size: 20px;
+
+  }
+
+  footer {
+    color: tomato;
+  }
