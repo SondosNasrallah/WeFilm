@@ -1,7 +1,7 @@
 var filmType;
 
-function favFilm= function(){
-var filmType =prompt('please enter your type of films');
+function favFilm(){
+var filmType =prompt('please enter name of your favorite film');
 
 while (filmType !== 'Horror' && filmType !== 'Romance'){
   filmType = prompt ('please enter the type Horror or Romance');  
